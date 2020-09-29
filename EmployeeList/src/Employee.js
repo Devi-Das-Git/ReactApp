@@ -2,10 +2,10 @@ import React from 'react'
 
 function Employees() {
     const employees =[
-    {name:'cerulean',job:'Janitor'},
-    {name:'fuchsia',job:'Bouncer'},
-    {name:'tigerlily',job:'Aspiring Actress'},
-    {name:'turquoise',job:'Bartender'}];
+    {name:'cerulean',job:'Bouncer'},
+    {name:'fuchsia',job:'Janitor'},
+    {name:'tigerlily',job:'Bartender'},
+    {name:'turquoise',job:'Aspiring Actress'}];
    
     return (
 
