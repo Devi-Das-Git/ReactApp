@@ -12,15 +12,15 @@ function Employees() {
         <div >
             <table >
         <thead>
-            <th style={{border:"3px solid"}}>Name</th>
-            <th style={{border:"3px solid"}}>Job</th>
+            <th style={{border:"1px solid"}}>Name</th>
+            <th style={{border:"1px solid"}}>Job</th>
         </thead>
         <tbody >
 
                     {employees.map((data) => (
                 <tr> 
-                <td style={{border:"3px solid"}}>{data.name}</td>
-                <td style={{border:"3px solid"}} >{data.job}</td>
+                <td style={{border:"1px solid"}}>{data.name}</td>
+                <td style={{border:"1px solid"}} >{data.job}</td>
                 
                 </tr>
             ))}
